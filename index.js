@@ -33,3 +33,30 @@ if(temp < 68){
 } else{
     console.log("Too Hot")
 }
+
+//challenge 1
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+let less5 = students.filter(function(five){
+    return five.length >= 5
+})
+console.log(lessthan5)
+/*Using the above array filter out all students whose names contain
+less than 5 characters*/
+
+//challenge 2
+
+
+let students = ["Riya", "Omor", "Alan", "Jaiyu", "Michael", "Lisa",
+"Richard"];
+console.log(students.includes("Junshen"))
+function namecheck(string){
+    students.includes("Savva", "Alan")
+}
+console.log(students.some(namecheck))
+
+/*Using the above array check to see if the array “includes” “junshen”
+Write a seperate function to check if “Alan” or “Savva” were included
+in “some” of the array
+USE MDN to find the appropriate array methods*/
